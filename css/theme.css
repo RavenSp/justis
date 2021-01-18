@@ -1,0 +1,10 @@
+html, body {
+	height: 100%;
+	background-image: url('../img/bibl.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	font-family: 'Noto Serif', serif;
+	color: white;
+	}
