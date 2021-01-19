@@ -1,3 +1,14 @@
+@font-face {
+	font-family: NotoSerifDisplay;
+	src: url('../fonts/NotoSerifDisplay-Regular.ttf');
+}
+
+@font-face {
+	font-family: NotoSerifDisplay-Bold;
+	src: url('../fonts/NotoSerifDisplay-Bold.ttf');
+}
+
+
 html, body {
 	height: 100%;
 	background-image: url('../img/bibl.png');
@@ -5,6 +16,6 @@ html, body {
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	font-family: 'Noto Serif', serif;
+	font-family: 'NotoSerifDisplay', serif;
 	color: white;
 	}
