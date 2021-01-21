@@ -9,6 +9,13 @@
 }
 
 
+@font-face {
+	font-family: NotoSerifDisplay-Italic;
+	src: url('../fonts/NotoSerifDisplay-Italic.ttf');
+}
+
+
+
 html, body {
 	height: 100%;
 	background-image: url('../img/bibl.png');
@@ -19,3 +26,15 @@ html, body {
 	font-family: 'NotoSerifDisplay', serif;
 	color: white;
 	}
+
+
+h1 {
+	font-family: 'NotoSerifDisplay-Bold', serif;
+	font-size: 3.6em;
+}
+
+h3 {
+	font-size: 2rem;
+	color: lightgray;
+	font-family: 'NotoSerifDisplay-Italic';
+}
