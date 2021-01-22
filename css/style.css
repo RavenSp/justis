@@ -10,10 +10,55 @@
 	
 }
 
+
+.alex {
+	position: absolute;
+	bottom: 0;
+	right: 6%;
+	background-image: url('../img/alex.png');
+	background-size: cover;
+	height: 86%;
+	width: 40%;
+}
+
+
 .header {
-	margin-top: 7rem;
+	margin-top: 5rem;
 }
 
 .title {
 
+}
+
+.info {
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+
+	border-radius: 15px;
+	margin-top: 10px;
+	background-color: rgba(0,0,0, 75%)
+}
+
+.info h3 {
+	padding-bottom: 10px;
+}
+
+.info p {
+	padding-left: 30px;
+	text-align: justify;
+}
+
+.navs {
+	height: 60px;
+	background-image: linear-gradient(rgba(54, 16, 10, 0.4), rgba(54, 16, 10, 1))
+
+}
+
+.navs ul {
+	align-self: center;
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
 }

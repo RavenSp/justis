@@ -18,13 +18,15 @@
 
 html, body {
 	height: 100%;
-	background-image: url('../img/bibl.png');
+	/*background-image: url('../img/bibl.png');*/
+	background-image: url('../img/lin.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	font-family: 'NotoSerifDisplay', serif;
 	color: white;
+	user-select:none;
 	}
 
 
