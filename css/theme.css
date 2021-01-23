@@ -32,11 +32,11 @@ html, body {
 
 h1 {
 	font-family: 'NotoSerifDisplay-Bold', serif;
-	font-size: 3.6em;
+	font-size: 4vw;
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 2vw;
 	color: lightgray;
 	font-family: 'NotoSerifDisplay-Italic';
 }
