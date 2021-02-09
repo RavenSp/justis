@@ -40,3 +40,36 @@ h3 {
 	color: lightgray;
 	font-family: 'NotoSerifDisplay-Italic';
 }
+
+.modal-content{
+	background-color: rgba(54, 16, 10, 0.95);
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-header .close {
+	font-size: 50px;
+	color: white;
+}
+
+.modal-body {
+	padding-left: 5vw;
+	padding-right: 2vw;
+}
+
+.modal-body a {
+	color: gray;
+}
+
+.modal-body a:hover {
+	color: white;
+}
+
+.modal-body span {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 20px;e
+}
+

@@ -3,7 +3,8 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -17,16 +18,16 @@
   </head>
   <body>
     <div class="test"></div>
-    <div class="alex"></div>
+    <div class="alex"><img src="img/alex.png" alt=""></div>
     <div class="container-fluid">
       <div class="row header">
-        <div class="col-7 title text-right">
+        <div class="col-sm-7 title text-right">
           <h1>Алексей Шидловский</h1>
           <h3>Viribus unitas res parvae crescent!</h3>
         </div>
       </div>
       <div class="row">
-      <div class="col-5 offset-md-1 info">
+      <div class="col-md-5 offset-md-1 info">
         <h2>Если что</h2>
         <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis eveniet eaque facere esse! Aliquam culpa itaque, suscipit. Omnis vel impedit aspernatur, fugiat, reprehenderit deserunt maiores eaque ipsum sed molestiae fugit!
@@ -34,23 +35,23 @@
         Alias, iste voluptate ullam qui fugit a veritatis voluptas dolor officiis repellat? Consequatur quo, tempore nostrum, illo </p>
       </div>
     </div>
-    <nav class="navbar navbar-expand fixed-bottom navs">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-md fixed-bottom navs">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Биография</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#biografy">Биография</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Услуги</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#servise">Услуги</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Обратная связь</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#callback">Обратная связь</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Статьи</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#articles">Статьи</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Практика</a>
@@ -59,7 +60,139 @@
      </div>
     </nav>
     </div>
-   <!--div class="alex"></div-->
+
+
+  <!-- Модальные окна -->
+  <div class="modal fade" id="biografy" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-xl">
+       <div class="modal-content">
+         <div class="modal-header">
+        <h2 class="modal-title" id="staticBackdropLabel">Биография</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, perferendis voluptatibus hic laudantium delectus, quaerat. Illo explicabo voluptatem eos quia, iusto ea rerum blanditiis dolorem culpa sapiente, molestiae, rem quam.
+        Molestias, reprehenderit similique. Numquam quia voluptates, dignissimos accusamus, non veniam, quo atque quae perferendis voluptatibus vero perspiciatis commodi quasi? Ratione nostrum id eligendi iure iusto adipisci vero voluptatibus repellat fuga.
+        Sapiente ipsum quaerat libero accusantium ipsa iste vitae quisquam ipsam impedit quas tempora modi neque ex molestiae reprehenderit eligendi cupiditate aperiam dolorum suscipit minus sit laudantium aspernatur nostrum commodi, labore!
+        Sequi, possimus. Qui architecto et, ea, quia quas modi explicabo aut fugit aperiam perferendis vel eligendi non, amet deserunt ratione alias nulla? Quasi, fugiat corrupti sunt impedit mollitia debitis vitae.
+        Eum libero fuga assumenda alias. Ipsa, delectus quaerat qui? Dolor est aliquam temporibus neque optio numquam dolore laboriosam earum sequi odio. Sit cum laudantium omnis consequatur amet, similique asperiores ad.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, perferendis voluptatibus hic laudantium delectus, quaerat. Illo explicabo voluptatem eos quia, iusto ea rerum blanditiis dolorem culpa sapiente, molestiae, rem quam.
+        Molestias, reprehenderit similique. Numquam quia voluptates, dignissimos accusamus, non veniam, quo atque quae perferendis voluptatibus vero perspiciatis commodi quasi? Ratione nostrum id eligendi iure iusto adipisci vero voluptatibus repellat fuga.
+        Sapiente ipsum quaerat libero accusantium ipsa iste vitae quisquam ipsam impedit quas tempora modi neque ex molestiae reprehenderit eligendi cupiditate aperiam dolorum suscipit minus sit laudantium aspernatur nostrum commodi, labore!
+        Sequi, possimus. Qui architecto et, ea, quia quas modi explicabo aut fugit aperiam perferendis vel eligendi non, amet deserunt ratione alias nulla? Quasi, fugiat corrupti sunt impedit mollitia debitis vitae.
+        Eum libero fuga assumenda alias. Ipsa, delectus quaerat qui? Dolor est aliquam temporibus neque optio numquam dolore laboriosam earum sequi odio. Sit cum laudantium omnis consequatur amet, similique asperiores ad.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, perferendis voluptatibus hic laudantium delectus, quaerat. Illo explicabo voluptatem eos quia, iusto ea rerum blanditiis dolorem culpa sapiente, molestiae, rem quam.
+        Molestias, reprehenderit similique. Numquam quia voluptates, dignissimos accusamus, non veniam, quo atque quae perferendis voluptatibus vero perspiciatis commodi quasi? Ratione nostrum id eligendi iure iusto adipisci vero voluptatibus repellat fuga.
+        Sapiente ipsum quaerat libero accusantium ipsa iste vitae quisquam ipsam impedit quas tempora modi neque ex molestiae reprehenderit eligendi cupiditate aperiam dolorum suscipit minus sit laudantium aspernatur nostrum commodi, labore!
+        Sequi, possimus. Qui architecto et, ea, quia quas modi explicabo aut fugit aperiam perferendis vel eligendi non, amet deserunt ratione alias nulla? Quasi, fugiat corrupti sunt impedit mollitia debitis vitae.
+        Eum libero fuga assumenda alias. Ipsa, delectus quaerat qui? Dolor est aliquam temporibus neque optio numquam dolore laboriosam earum sequi odio. Sit cum laudantium omnis consequatur amet, similique asperiores ad.</p>
+      </div>
+       </div>
+     </div>
+  </div>
+
+
+
+  <div class="modal fade" id="servise" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-xl">
+       <div class="modal-content">
+         <div class="modal-header">
+        <h2 class="modal-title" id="staticBackdropLabel">Услуги</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, perferendis voluptatibus hic laudantium delectus, quaerat. Illo explicabo voluptatem eos quia, iusto ea rerum blanditiis dolorem culpa sapiente, molestiae, rem quam.
+        Molestias, reprehenderit similique. Numquam quia voluptates, dignissimos accusamus, non veniam, quo atque quae perferendis</p>
+      </div>
+       </div>
+     </div>
+  </div>
+
+   <div class="modal fade" id="callback" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-lg">
+       <div class="modal-content">
+         <div class="modal-header">
+        <h2 class="modal-title" id="staticBackdropLabel">Обратная связь</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBLCOux6UYrEdttSt2KOpGyD3OKLbyTUvbgoBqbnQdBCLMhQ/viewform?embedded=true" width="100%" height="808" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes"  horizontalscrolling="no" verticalscrolling="yes">Загрузка…</iframe>
+       <!--script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/5e26e397cf3d3500b90d327b/?iframe=1" frameborder="0" name="ya-form-5e26e397cf3d3500b90d327b" width="650"></iframe-->
+      </div>
+       </div>
+     </div>
+  </div>
+
+  <div class="modal fade" id="articles" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-xl">
+       <div class="modal-content">
+         <div class="modal-header">
+        <h2 class="modal-title" id="staticBackdropLabel">Статьи</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><a href="#" data-toggle="modal" data-target="#test">Внутренняя статья</a>
+          <br><span>Стаья о делах юридичесих</span></p>
+        <p><a href="https://famous-scientists.ru/16239" target="_blank">Внешняя статья</a></p>
+        <p><a href="files/calend.pdf" target="_blank">Любимый календарь</a></p>
+      </div>
+       </div>
+     </div>
+  </div>
+
+
+  <div class="modal fade" id="test" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-xl">
+       <div class="modal-content">
+         <div class="modal-header">
+        <h2 class="modal-title" id="staticBackdropLabel">Lorem ipsum!</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          <span>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Tempora libero, voluptas error, impedit quam sit quidem labore porro quasi. Accusantium nesciunt deserunt odit recusandae laudantium quod cupiditate ex sequi quam!</span>
+          <span>Explicabo, eligendi, magni doloribus ullam eveniet officiis aspernatur animi veritatis unde quo cupiditate totam, amet commodi blanditiis rerum repellat reprehenderit porro, enim id omnis culpa? Dolorum nisi fugit tempora excepturi.</span>
+          <span>Ab quasi labore aut asperiores mollitia, corrupti, enim nobis consequuntur qui aliquid autem magnam distinctio numquam iure placeat fuga officiis non omnis? Similique obcaecati illo distinctio a placeat voluptates accusamus.</span>
+          <span>Consequatur minima quibusdam non voluptates explicabo inventore nisi architecto ut fugiat vero aliquid quidem repudiandae pariatur distinctio, saepe quas repellendus accusantium, ipsa libero provident placeat numquam expedita voluptatum mollitia! Architecto.</span>
+          <span>Ipsa quisquam, neque, cum obcaecati iusto quas ut aut aspernatur minus perspiciatis laborum provident, dolore, deleniti fuga. Distinctio, iusto assumenda, maiores veritatis autem eveniet nostrum, quidem aspernatur accusamus animi placeat?</span>
+        </p>
+        <p>
+          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem voluptatum dicta, laboriosam veniam impedit exercitationem ullam aliquam nam nisi velit dolor omnis, nostrum. Facilis, labore, dignissimos aliquid nesciunt doloribus dolorum?</span>
+          <span>Inventore omnis facere mollitia sunt, nihil temporibus nesciunt quas. Numquam, nostrum, maxime. Inventore voluptas nostrum autem animi sequi itaque ullam odit natus earum, odio iusto ratione officia quam tempora, soluta!</span>
+          <span>Amet repellendus dolor, beatae ullam sint tempora nobis inventore, consequatur fugiat iusto vel autem ducimus tempore laboriosam recusandae nemo pariatur dolorum molestias enim sit possimus obcaecati alias accusantium quos rerum.</span>
+          <span>Numquam, accusamus totam consequuntur ullam nesciunt quo magnam id consequatur odit modi alias tempora. Repellat dolorem distinctio, beatae totam, ex ipsa veritatis voluptate sint reiciendis harum fugiat illum, placeat officiis.</span>
+          <span>Distinctio tempora nemo a reprehenderit incidunt sint illum, esse voluptatum qui unde sequi, ab ipsam minima iusto, iure et id porro dolores voluptatibus perspiciatis. Ex perferendis dolores officiis veritatis eligendi.</span>
+        </p>
+        <p>
+          <span>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Quos, cupiditate illo placeat facilis delectus, velit magni inventore quo. Tempore fugit dicta doloremque rem magni animi veritatis, placeat pariatur eveniet id.</span>
+          <span>Ipsam, deserunt, eius reprehenderit sequi repellat aut error, repellendus praesentium quaerat ab consequatur! Molestiae incidunt neque doloremque illum nihil placeat facilis magni. Similique ducimus impedit eum necessitatibus, repellendus iusto. Itaque.</span>
+          <span>Temporibus, dolore quasi. Reiciendis quae ea veniam maxime alias? Sed totam magnam vitae porro fugiat, fugit? Obcaecati qui explicabo tempore, consequuntur mollitia molestias repellendus animi laborum suscipit, dolorum, dolor ullam?</span>
+          <span>Deserunt veniam fugit, molestiae dicta, fuga eveniet minus eius eligendi. Ad, recusandae sapiente, repellendus debitis facere optio eveniet porro quos magni id iste sit labore natus distinctio commodi, rem ea.</span>
+          <span>Deserunt ratione adipisci corrupti architecto, voluptas laborum nobis. A ea fugiat, qui excepturi, tenetur molestiae autem exercitationem commodi dignissimos in sapiente maxime aperiam iste illum. Ullam eius consequatur quibusdam odit!</span>
+        </p>
+        <p>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas, ut, dolor quibusdam totam cumque voluptate, architecto incidunt officia asperiores dignissimos, officiis sint doloremque. Sit tempora soluta enim doloribus, eum.</span>
+          <span>Quibusdam sed fugiat iusto illum rerum explicabo, neque consequatur placeat. Nisi officia rerum blanditiis eum quam, ipsum saepe, obcaecati deleniti veritatis, maiores alias? Commodi, earum autem nulla deserunt aut repellat?</span>
+          <span>A ducimus atque cupiditate, fugit sequi distinctio obcaecati deleniti consequatur unde ab repudiandae eum delectus minima natus tempore aliquam quas voluptas recusandae ut beatae omnis? Sequi repellat voluptatibus omnis odit?</span>
+          <span>Iure quos incidunt quaerat sit tempora velit, debitis reiciendis, labore ullam esse vitae exercitationem, ab odio molestias. Assumenda molestiae veritatis labore corrupti, eveniet nihil odit sapiente laborum libero repellendus blanditiis?</span>
+          <span>Hic nam natus obcaecati blanditiis excepturi ab, eius quia ut, est nihil accusantium corrupti vitae commodi similique dignissimos aliquam voluptates magni, libero ea cum at quidem inventore earum quis? Aut.</span>
+        </p>
+      </div>
+       </div>
+     </div>
+  </div>
+
+   <!-- Конец модальных окон -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
